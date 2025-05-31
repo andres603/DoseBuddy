@@ -32,9 +32,11 @@ Our MVP demonstrates the core functionality of DoseBuddy's base layer:
 - **WiFi Connectivity**: Remote schedule management via a web interface.
 - **Error Handling**: Robust operation even during network or power interruptions.
 
- ## Circuit Diagrams
-![Circuit Diagram 1](FYKP5G0L8EHUG6Y.jpg)
-![Circuit Diagram 2](Picture1.png)
+## Circuit Diagrams
+<p align="center">
+  <img src="FYKP5G0L8EHUG6Y.jpg" alt="Circuit Diagram 1" />
+  <img src="Picture1.png" alt="Circuit Diagram 2" />
+</p>
 
 ## Hardware & Software
 - **Hardware**: Arduino Uno R4 WiFi, stepper motor, LCD display, and 3D-printed components (PLA & TPU).
