@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://img.youtube.com/vi/5MCZ786t86w/0.jpg" alt="Watch the Demo Video on YouTube" />
+</p>
 # DoseBuddy - Automatic Pill Dispenser
 
 [![Watch the Demo Video on YouTube](https://img.youtube.com/vi/5MCZ786t86w/0.jpg)](https://www.youtube.com/watch?v=5MCZ786t86w)
