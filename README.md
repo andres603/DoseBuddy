@@ -1,6 +1,6 @@
 # DoseBuddy - Automatic Pill Dispenser
 
-[Watch the Demo Video on YouTube](https://www.youtube.com/link-to-video)
+[Watch the Demo Video on YouTube]([https://www.youtube.com/link-to-video](https://www.youtube.com/watch?v=5MCZ786t86w))
 
 **DoseBuddy** is an innovative solution designed to combat medication non-adherence, especially for older adults. This project combines advanced automation, user-friendly design, and smart connectivity to ensure accurate and timely medication delivery.
 
@@ -45,4 +45,4 @@ Our MVP demonstrates the core functionality of DoseBuddy's base layer:
 - Monitor adherence and receive alerts through the app.
 
 ## Contact
-If you have any questions about this repository, wish to request a feature or make a contribution, please open a [GitHub issue](https://github.com/MelvinMo/RUMC-RUle-Mutation-Classifier/issues), or feel free to contact [melvmok@gmail.com](mailto:melvmok@gmail.com).
+If you have any questions about this repository, wish to request a feature or make a contribution, please open a [GitHub issue]([https://github.com/MelvinMo/RUMC-RUle-Mutation-Classifier/](https://github.com/MelvinMo/DoseBuddy/issues), or feel free to contact [melvmok@gmail.com](mailto:melvmok@gmail.com).
