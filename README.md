@@ -45,4 +45,4 @@ Our MVP demonstrates the core functionality of DoseBuddy's base layer:
 - Monitor adherence and receive alerts through the app.
 
 ## Contact
-If you have any questions about this repository, wish to request a feature or make a contribution, please open a [GitHub issue]([https://github.com/MelvinMo/RUMC-RUle-Mutation-Classifier/](https://github.com/MelvinMo/DoseBuddy/issues), or feel free to contact [melvmok@gmail.com](mailto:melvmok@gmail.com).
+If you have any questions about this repository, wish to request a feature or make a contribution, please open a [GitHub issue](https://github.com/MelvinMo/DoseBuddy/issues), or feel free to contact [melvmok@gmail.com](mailto:melvmok@gmail.com).
