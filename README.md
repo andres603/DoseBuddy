@@ -1,7 +1,9 @@
 # DoseBuddy - Automatic Pill Dispenser
 
 <p align="center">
-  <img src="https://img.youtube.com/vi/5MCZ786t86w/0.jpg" alt="Watch the Demo Video on YouTube" />
+  <a href="https://www.youtube.com/watch?v=5MCZ786t86w">
+    <img src="https://img.youtube.com/vi/5MCZ786t86w/0.jpg" alt="Watch the Demo Video on YouTube" />
+  </a>
 </p>
 
 **DoseBuddy** is an innovative solution designed to combat medication non-adherence, especially for older adults. This project combines advanced automation, user-friendly design, and smart connectivity to ensure accurate and timely medication delivery.
