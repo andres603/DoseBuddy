@@ -6,8 +6,8 @@
 #include <AccelStepper.h>
 
 // WiFi credentials
-char ssid[] = "Ray St. tp-link";        // Replace with your network SSID
-char pass[] = "newskates246";    // Replace with your network password
+char ssid[] = "user";        // Replace with your network SSID
+char pass[] = "pass";    // Replace with your network password
 int status = WL_IDLE_STATUS;
 WiFiServer server(80);
 // String currentStatus = ""; // Remove initial empty declaration, see definition below
